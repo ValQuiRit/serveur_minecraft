@@ -1,0 +1,153 @@
+[21:47:43] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:47:44] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:47:44] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:47:44] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:47:44] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:47:44] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:47:44] [ServerMain/INFO]: Reloading ResourceManager: Default
+[21:47:45] [Worker-Main-10/INFO]: Loaded 7 recipes
+[21:47:46] [Worker-Main-10/INFO]: Loaded 1141 advancements
+[21:47:50] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[21:47:50] [Server thread/INFO]: Loading properties
+[21:47:50] [Server thread/INFO]: Default game type: SURVIVAL
+[21:47:50] [Server thread/INFO]: Generating keypair
+[21:47:50] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descripteur non valide
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at acj$1.run(SourceFile:101) [server-1.18.1.jar:?]
+[21:47:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:47:50] [Server thread/INFO]: Using default channel type
+[21:47:51] [Server thread/INFO]: Preparing level "world"
+[21:47:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:47:52] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:47:57] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[21:47:58] [Worker-Main-12/INFO]: Preparing spawn area: 2%
+[21:47:58] [Worker-Main-10/INFO]: Preparing spawn area: 9%
+[21:47:59] [Worker-Main-12/INFO]: Preparing spawn area: 15%
+[21:47:59] [Worker-Main-13/INFO]: Preparing spawn area: 22%
+[21:48:00] [Worker-Main-9/INFO]: Preparing spawn area: 31%
+[21:48:00] [Worker-Main-9/INFO]: Preparing spawn area: 42%
+[21:48:01] [Worker-Main-14/INFO]: Preparing spawn area: 56%
+[21:48:01] [Worker-Main-11/INFO]: Preparing spawn area: 57%
+[21:48:02] [Worker-Main-11/INFO]: Preparing spawn area: 68%
+[21:48:02] [Worker-Main-14/INFO]: Preparing spawn area: 68%
+[21:48:03] [Worker-Main-9/INFO]: Preparing spawn area: 69%
+[21:48:03] [Worker-Main-10/INFO]: Preparing spawn area: 69%
+[21:48:04] [Worker-Main-12/INFO]: Preparing spawn area: 70%
+[21:48:04] [Worker-Main-14/INFO]: Preparing spawn area: 71%
+[21:48:05] [Worker-Main-10/INFO]: Preparing spawn area: 73%
+[21:48:05] [Worker-Main-11/INFO]: Preparing spawn area: 76%
+[21:48:06] [Worker-Main-11/INFO]: Preparing spawn area: 78%
+[21:48:06] [Worker-Main-14/INFO]: Preparing spawn area: 81%
+[21:48:07] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[21:48:07] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[21:48:08] [Worker-Main-14/INFO]: Preparing spawn area: 84%
+[21:48:08] [Worker-Main-13/INFO]: Preparing spawn area: 85%
+[21:48:09] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[21:48:09] [Worker-Main-14/INFO]: Preparing spawn area: 86%
+[21:48:10] [Worker-Main-11/INFO]: Preparing spawn area: 88%
+[21:48:10] [Worker-Main-11/INFO]: Preparing spawn area: 89%
+[21:48:11] [Worker-Main-9/INFO]: Preparing spawn area: 90%
+[21:48:11] [Worker-Main-9/INFO]: Preparing spawn area: 93%
+[21:48:12] [Worker-Main-13/INFO]: Preparing spawn area: 94%
+[21:48:12] [Worker-Main-12/INFO]: Preparing spawn area: 96%
+[21:48:13] [Worker-Main-14/INFO]: Preparing spawn area: 97%
+[21:48:13] [Server thread/INFO]: Time elapsed: 22322 ms
+[21:48:13] [Server thread/INFO]: Done (22.443s)! For help, type "help"
+[21:48:26] [User Authenticator #1/INFO]: UUID of player ValQuiRit is cb6575f5-dad1-415d-860a-4377e800fc1f
+[21:48:26] [Server thread/INFO]: ValQuiRit[/[0:0:0:0:0:0:0:1]:54579] logged in with entity id 108 at (-201.5, 75.0, 125.5)
+[21:48:26] [Server thread/INFO]: ValQuiRit joined the game
+[21:48:31] [User Authenticator #2/INFO]: UUID of player Tecknatexx is 5d97b073-202e-49be-8a17-4cbcf7c4b38b
+[21:48:31] [Server thread/INFO]: Tecknatexx[/127.0.0.1:54582] logged in with entity id 242 at (-190.5, 69.0, 118.5)
+[21:48:31] [Server thread/INFO]: Tecknatexx joined the game
+[21:49:18] [Server thread/INFO]: Made Teknatexx a server operator
+[21:49:29] [Server thread/INFO]: Made Tecknatexx a server operator
+[21:49:34] [Server thread/INFO]: [Tecknatexx: Made ValQuiRit a server operator]
+[21:49:39] [Server thread/INFO]: [Tecknatexx: Teleported Tecknatexx to ValQuiRit]
+[21:49:39] [Server thread/WARN]: Tecknatexx moved too quickly! -55.206338844165,9.0,-10.699984288257426
+[21:49:39] [Server thread/WARN]: Tecknatexx moved too quickly! -55.206338844165,9.0,-10.699984288257426
+[21:50:20] [Server thread/INFO]: [Tecknatexx: Set own game mode to Spectator Mode]
+[21:50:31] [Server thread/INFO]: [Tecknatexx: Set ValQuiRit's game mode to Spectator Mode]
+[21:51:31] [Server thread/INFO]: [Tecknatexx: Teleported Tecknatexx to ValQuiRit]
+[21:51:31] [Server thread/WARN]: Tecknatexx moved too quickly! 4.025505556049154,29.4275816880618,80.11599350689096
+[21:51:31] [Server thread/WARN]: Tecknatexx moved too quickly! 4.025505556049154,29.4275816880618,80.11599350689096
+[21:51:31] [Server thread/WARN]: Tecknatexx moved too quickly! 4.025505556049154,29.4275816880618,80.11599350689096
+[21:51:44] [Server thread/INFO]: [Tecknatexx: Set ValQuiRit's game mode to Survival Mode]
+[21:51:44] [Server thread/INFO]: [Tecknatexx: Set own game mode to Survival Mode]
+[21:53:54] [Server thread/INFO]: ValQuiRit has made the advancement [Stone Age]
+[21:54:02] [Server thread/INFO]: Tecknatexx lost connection: Disconnected
+[21:54:02] [Server thread/INFO]: Tecknatexx left the game
+[21:54:04] [Server thread/INFO]: ValQuiRit has made the advancement [Getting an Upgrade]
+[21:56:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@1e5c4e5e[id=<null>,name=Tecknatexx,properties={},legacy=false] (/127.0.0.1:62952) lost connection: Disconnected
+[21:56:13] [User Authenticator #3/INFO]: UUID of player Tecknatexx is 5d97b073-202e-49be-8a17-4cbcf7c4b38b
+[21:56:13] [Server thread/INFO]: Tecknatexx[/127.0.0.1:62976] logged in with entity id 2347 at (-395.25140254586086, 73.0, 339.49889049566013)
+[21:56:13] [Server thread/INFO]: Tecknatexx joined the game
+[21:57:06] [Server thread/INFO]: Tecknatexx has made the advancement [Stone Age]
+[21:57:23] [Server thread/INFO]: Tecknatexx has made the advancement [Getting an Upgrade]
+[22:01:28] [Server thread/INFO]: ValQuiRit has made the advancement [Monster Hunter]
+[22:03:27] [Server thread/INFO]: Tecknatexx has made the advancement [Acquire Hardware]
+[22:03:45] [Server thread/INFO]: Tecknatexx has made the advancement [Isn't It Iron Pick]
+[22:04:32] [Server thread/INFO]: Tecknatexx has made the advancement [Monster Hunter]
+[22:05:52] [Server thread/INFO]: ValQuiRit has made the advancement [Acquire Hardware]
+[22:06:14] [Server thread/INFO]: ValQuiRit has made the advancement [Isn't It Iron Pick]
+[22:06:29] [Server thread/INFO]: Tecknatexx was slain by Enderman
+[22:07:03] [Server thread/INFO]: [Tecknatexx: Teleported Tecknatexx to ValQuiRit]
+[22:07:03] [Server thread/WARN]: Tecknatexx moved too quickly! -142.18929947087736,-46.0,189.81152437836727
+[22:07:03] [Server thread/WARN]: Tecknatexx moved too quickly! -142.18929947087736,-46.0,189.81152437836727
+[22:07:03] [Server thread/WARN]: Tecknatexx moved too quickly! -142.18929947087736,-46.0,189.81152437836727
+[22:07:03] [Server thread/WARN]: Tecknatexx moved too quickly! -142.18929947087736,-46.0,189.81152437836727
+[22:07:03] [Server thread/WARN]: Tecknatexx moved too quickly! -142.18929947087736,-46.0,189.81152437836727
+[22:07:03] [Server thread/WARN]: Tecknatexx moved too quickly! -142.18929947087736,-46.0,189.81152437836727
+[22:07:03] [Server thread/WARN]: Tecknatexx moved too quickly! -142.18929947087736,-46.0,189.81152437836727
+[22:07:03] [Server thread/WARN]: Tecknatexx moved too quickly! -142.18929947087736,-46.0,189.81152437836727
+[22:08:53] [Server thread/INFO]: Tecknatexx was shot by Skeleton
+[22:08:54] [Server thread/INFO]: Skipping update from removed player 'adj['Tecknatexx'/2347, l='ServerLevel[world]', x=-339.65, y=51.00, z=317.30, removed=KILLED]'
+[22:09:00] [Server thread/INFO]: [Tecknatexx: Set own game mode to Spectator Mode]
+[22:09:25] [Server thread/INFO]: [Tecknatexx: Set own game mode to Survival Mode]
+[22:15:01] [Server thread/INFO]: ValQuiRit has made the advancement [Sweet Dreams]
+[22:15:03] [Server thread/INFO]: Tecknatexx lost connection: Disconnected
+[22:15:03] [Server thread/INFO]: Tecknatexx left the game
+[22:15:11] [User Authenticator #4/INFO]: UUID of player Tecknatexx is 5d97b073-202e-49be-8a17-4cbcf7c4b38b
+[22:15:11] [Server thread/INFO]: Tecknatexx[/127.0.0.1:64123] logged in with entity id 5850 at (-424.8862633730463, -14.0, 353.0699487475898)
+[22:15:11] [Server thread/INFO]: Tecknatexx joined the game
+[22:19:58] [Server thread/INFO]: Tecknatexx has made the advancement [Diamonds!]
+[22:21:19] [Server thread/INFO]: ValQuiRit has made the advancement [A Seedy Place]
+[22:27:40] [Server thread/INFO]: [Tecknatexx: Gamerule playersSleepingPercentage is now set to: 50]
+[22:34:58] [Server thread/INFO]: ValQuiRit has made the advancement [Not Today, Thank You]
+[22:37:34] [Server thread/INFO]: Tecknatexx has made the advancement [A Seedy Place]
+[22:39:37] [Server thread/INFO]: Tecknatexx has made the advancement [Sweet Dreams]
+[22:43:01] [Server thread/INFO]: ValQuiRit has made the advancement [Diamonds!]
+[22:50:23] [Server thread/INFO]: ValQuiRit has made the advancement [The Parrots and the Bats]
+[23:02:49] [Server thread/INFO]: [Tecknatexx: Stopping the server]
+[23:02:49] [Server thread/INFO]: Stopping server
+[23:02:49] [Server thread/INFO]: Saving players
+[23:02:49] [Server thread/INFO]: Saving worlds
+[23:02:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:02:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:02:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:02:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:02:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:02:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:02:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

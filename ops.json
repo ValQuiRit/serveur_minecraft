@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "2ed9b580-05d4-4ecb-87b9-3f9588621bba",
+    "name": "Teknatexx",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5d97b073-202e-49be-8a17-4cbcf7c4b38b",
+    "name": "Tecknatexx",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "cb6575f5-dad1-415d-860a-4377e800fc1f",
+    "name": "ValQuiRit",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
